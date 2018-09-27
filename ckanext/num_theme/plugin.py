@@ -1,8 +1,9 @@
 import ckan.plugins as plugins
 import ckan.plugins.toolkit as toolkit
+from ckan.lib.plugins import DefaultTranslation
 
-
-class Num_ThemePlugin(plugins.SingletonPlugin):
+class Num_ThemePlugin(plugins.SingletonPlugin, DefaultTranslation):
+    plugins.implements(plugins.ITranslation, inherit=True)
     plugins.implements(plugins.IConfigurer)
 
     # IConfigurer

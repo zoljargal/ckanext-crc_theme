@@ -1,0 +1,55 @@
+<footer class="site-footer">
+    <div class="container">
+        <div>&nbsp;</div>
+        <div class="row">
+            <div class="col-md-6 ">
+                <img src="/num_mgl-white.png">
+            </div>
+            <div class="col-md-6 attribution">
+
+                <p><strong style="text-transform: uppercase; color:white;">{{ _('Contact us') }}</strong></p><br/>
+
+                <div class="row">
+                    <div class="col-md-12">
+                        <i class="fa fa-map-marker" style="font-size: 1.4em; float: left;"></i>
+                        <div style="margin-left: 30px">
+                            {{ _('Address') }}: {{ _('IKH SURGUULIIN GUDAMJ-1 P.O.BOX -46A/523, 14201 ULAANBAATAR, MONGOLIA') }}
+                        </div>
+                    </div>
+                </div>
+                <br/>
+                <div>
+                <span><i class="fa fa-phone" style="margin-right: 10px;"></i> {{ _('Phone') }}: (976)-77307730-1163 &nbsp;&nbsp;&nbsp;<i
+                        class="fa fa-envelope-o"></i>
+                    {{ _('E-mail address') }}: news@num.edu.mn</span><br/>
+                    <span><i class="fa fa-globe" style="margin-right: 10px;"></i> {{ _('Web site') }}:
+                        <a href="https://num.edu.mn">https://num.edu.mn</a></span>
+                </div>
+
+            </div>
+        </div>
+        <hr/>
+        <div class="row">
+            <div class="col-md-12">
+                <div style="float: right;">
+                    <div class="footer-social">
+                        <a href="https://www.facebook.com/MUIS1942" target="_blank"><i class="fa fa-facebook circle"></i></a>
+                        <a href="https://twitter.com/num_edu" target="_blank"><i class="fa fa-twitter circle"></i></a>
+                        <a href="#"><i class="fa fa-google-plus circle"></i></a>
+                        <a href="https://www.youtube.com/channel/UCfWHF5c7aUtTDF93jqSvWXQ" target="_blank"><i class="fa fa-youtube-play circle"></i></a>
+                    </div>
+                    <br/><br/><br/>
+                    <div style="float: right;">Copyright © 2018 {{ _('National University of Mongolia')}}</div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+    {% block footer_debug %}
+    {% if g.debug %}
+    {% include 'snippets/debug.html' %}
+    {% endif %}
+    {% endblock %}
+</footer>
