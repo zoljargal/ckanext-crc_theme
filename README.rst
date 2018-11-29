@@ -76,7 +76,7 @@ To install ckanext-num_theme:
 Config Settings
 ---------------
 
-Document any optional config settings here. For example::
+Document any oppotional config settings here. For example::
 
     # The minimum number of hours to wait before re-checking a resource
     # (optional, default: 24).
@@ -164,3 +164,24 @@ To publish a new version to PyPI follow these steps:
 
        git tag 0.0.2
        git push --tags
+
+----------------------------------
+Installing multiple instance on a server
+----------------------------------
+Follow the link.
+    https://sites.google.com/gwnsys.ca/ckan
+
+---------------
+Paster commands
+---------------
+1. Add user to admin
+
+    $paster --plugin=ckan sysadmin add tulga -c /etc/ckan/default/production.ini
+
+2. Compile po file to mo
+
+    $python setup.py compile_catalog
+
+3. Run development
+
+    $paster serve --reload /etc/ckan/default/development_num.ini

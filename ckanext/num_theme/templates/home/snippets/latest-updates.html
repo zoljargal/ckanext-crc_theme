@@ -1,0 +1,28 @@
+<div class="wrapper-featured" style="background-color: #f4f4f5;">
+    <div class="container container-heading">
+        <h2 class="heading-featured">{{ _("Latest datasets") }} </h2>
+    </div>
+
+    <div class="container">
+        <div class="row cards cards--4 desktop-only">
+
+            {% for package in h.num_latest_changed_packages() %}
+            <a class="card card-danger" href="{{ h.url_for('/dataset') }}/{{ package.data.package.name }}"
+               style="background-color: white">
+                <div class="card-meta">{{ _(package.activity_type) }}
+                    {{ h.date_string_from_timestamp(package.timestamp) }}
+                </div>
+                <div class="card-content">
+                    <div class="card-title">{{ package.data.package.title }}</div>
+                    <!--<div class="card-title-secondary">{{ h.date_string_from_timestamp(package.timestamp) }}</div>-->
+                    <div class="card-description"> {{ package.data.package.notes }}</div>
+                    <div class="card-link-wrapper">
+                    </div>
+                </div>
+            </a>
+            {% endfor %}
+
+        </div>
+
+    </div>
+</div>
