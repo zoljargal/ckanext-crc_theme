@@ -66,7 +66,7 @@
 }
 
 .num-hero{
-    /*background: #ffffff;*/
+    background: #efefef !important;
 }
 /* Change the colors of the "Search Your Data" box. */
 .homepage .module-search .module-content {
@@ -215,4 +215,40 @@ body {
 
 .media-item .media-image{
     max-width: 150px;
+}
+
+/* ===========================================
+   Latest updates
+   =========================================== */
+.page-header {
+    padding-bottom: 0;
+    margin: 22px 0;
+    border-bottom: none;
+}
+
+.page-header h1 {
+    font-size: 17.6px;
+    text-transform: uppercase;
+    border-bottom: 1px solid #E2E2E2;
+}
+
+article header{
+    margin-bottom: 11px;
+}
+article .entry-title{
+    margin-bottom: 0px;
+}
+
+article .entry-title a{
+    text-decoration: none;
+    color: #428bca;
+}
+
+article .entry-meta{
+    font-size: 0.85em;
+}
+
+article .entry-meta time{
+    color: #8792a4;
+
 }
