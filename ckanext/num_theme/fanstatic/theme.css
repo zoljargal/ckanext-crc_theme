@@ -190,8 +190,8 @@ body {
 
 .feature-group-box{
   padding: 10px;
-  margin:10px;
-  /* border: white solid 1px; */
+  margin:10px 30px;
+
   border-radius: 3px;
   width: 180px;
   float: left;
@@ -225,7 +225,7 @@ body {
   margin-bottom: 10px;
 }
 .group-image img{
-  max-width: 160px;
+  max-width: 100px;
 }
 
 .media-item .media-image{
