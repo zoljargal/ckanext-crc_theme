@@ -1,24 +1,19 @@
-<div class="group-wrapper">
-    <div class="container">
-        <div class="page-header">
-            <h1>{{ _('Browse Topics') }}</h1>
-        </div>
-        <div class="feature-groups">
-            {% for group in h.num_all_groups() %}
-
-            <a class="feature-group-box" href="{{h.url_for('/group') }}/{{ group.name }}">
-                <div class="group-image">
-                    <img src="{{ group.image_display_url}}"/>
-                </div>
-                <span class="group-name">{{ group.display_name }}</span>
-                <!--<div>{{ group.package_count }}</div>-->
-            </a>
-
-            {% endfor %}
-        </div>
-
-        <!--<div class="row" style="text-align: center; margin-top: 50px; margin-bottom: 50px;">-->
-        <!--<a href="{{ h.url_for('/group') }}" class="btn btn-outline btn-transparent">{{ _("All groups")}}</a>-->
-        <!--</div>-->
+<div class="container">
+    <div class="page-header">
+        <h1>{{ _('Browse Topics') }}</h1>
     </div>
+    <div class="feature-groups">
+        {% for group in h.num_all_groups() %}
+
+        <a class="feature-group-box" href="{{h.url_for('/group') }}/{{ group.name }}">
+            <div class="group-image">
+                <img src="{{ group.image_display_url }}"/>
+            </div>
+            <span class="group-name">{{ group.display_name }}</span>
+                    </a>
+
+        {% endfor %}
+    </div>
+
+
 </div>

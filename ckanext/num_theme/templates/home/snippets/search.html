@@ -3,8 +3,6 @@
 <div class="module ">
     <div class="text-center getstarted">
         {% if h.lang()=='mn_MN' %}
-
-
         <h4>
             <a href="/dataset">{{ h.num_total_packages() }} </a>
             <small>Өгөгдлийн бүрдлээс</small>
@@ -14,10 +12,11 @@
             </span>
         </h4>
         {% else %}
-        <h4><span class="my-label">Get Started<br>
-            <small>Search over <a href="/dataset">{{ h.num_total_packages() }} datasets</a>
-            </small>
-            <br><i class="fa fa-caret-down"></i></span></h4>
+        <h4>
+            <span class="my-label">Get Started<br>
+            <small>Search over <a href="/dataset">{{ h.num_total_packages() }} datasets</a></small>
+            <br><i class="fa fa-caret-down"></i></span>
+        </h4>
 
         {% endif %}
     </div>
