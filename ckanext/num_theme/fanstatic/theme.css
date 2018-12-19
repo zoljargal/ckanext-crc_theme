@@ -106,8 +106,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 /* Add a border line between the top and bottom halves of the front page. */
 .homepage [role="main"] {
-    border-top: 1px solid rgb(204, 204, 204);
-    min-height: 230px;
+    border-top: 1px solid #ccc;
+    min-height: 220px;
 }
 
 .media-overlay .media-heading{

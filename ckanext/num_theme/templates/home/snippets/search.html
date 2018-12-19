@@ -21,7 +21,7 @@
 
         {% endif %}
     </div>
-    <form class="module-content" method="get" action="{% url_for '/dataset' %}">
+    <form method="get" action="{% url_for '/dataset' %}">
 
         <div class="input-group search-input-group">
             <input aria-label="{% block header_site_search_label %}{{ _('Search datasets') }}{% endblock %}"
