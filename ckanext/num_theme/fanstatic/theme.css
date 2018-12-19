@@ -273,7 +273,7 @@ article .entry-meta time{
     text-transform: uppercase;
 }
 
-.getstarted label {
+.getstarted .my-label {
     display: inline-block;
     margin-bottom: 5px;
     font-weight: 700;

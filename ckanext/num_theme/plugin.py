@@ -2,15 +2,23 @@ import ckan.plugins as plugins
 import ckan.plugins.toolkit as toolkit
 from ckan.lib.plugins import DefaultTranslation
 
+def total_packages():
+    '''Return a total package number.'''
+
+    # Get a list of all the site's groups from CKAN, sorted by number of
+    # datasets.
+    groups = toolkit.get_action('group_list')(data_dict={'all_fields': True, 'include_dataset_count': True})
+    total = 0
+    for group in groups:
+        total = total + group['package_count']
+    return total
+
 def all_groups():
     '''Return a sorted list of the groups with the most datasets.'''
 
     # Get a list of all the site's groups from CKAN, sorted by number of
     # datasets.
-    groups = toolkit.get_action('group_list')(
-        data_dict={'all_fields': True, 'limit': 10})
-
-    return groups
+    return toolkit.get_action('group_list')(data_dict={'all_fields': True, 'limit': 10})
 
 def latest_changed_packages():
     return toolkit.get_action('recently_changed_packages_activity_list')(data_dict={'limit': 5})
@@ -40,4 +48,5 @@ class Num_ThemePlugin(plugins.SingletonPlugin, DefaultTranslation):
             'num_all_groups': all_groups,
             'num_latest_changed_packages': latest_changed_packages,
             'date_string_from_timestamp': date_string,
+            'num_total_packages': total_packages,
         }

@@ -6,18 +6,18 @@
 
 
         <h4>
-            <a href="/dataset">5 </a>
+            <a href="/dataset">{{ h.num_total_packages() }} </a>
             <small>Өгөгдлийн бүрдлээс</small>
             <br>
-            <label>ХАЙХ<br>
+            <span class="my-label">ХАЙХ<br>
                 <i class="fa fa-caret-down"></i>
-            </label>
+            </span>
         </h4>
         {% else %}
-        <h4><label>Get Started<br>
-            <small>Search over <a href="/dataset">5 datasets</a>
+        <h4><span class="my-label">Get Started<br>
+            <small>Search over <a href="/dataset">{{ h.num_total_packages() }} datasets</a>
             </small>
-            <br><i class="fa fa-caret-down"></i></label></h4>
+            <br><i class="fa fa-caret-down"></i></span></h4>
 
         {% endif %}
     </div>
