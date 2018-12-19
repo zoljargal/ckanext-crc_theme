@@ -2,6 +2,7 @@ import ckan.plugins as plugins
 import ckan.plugins.toolkit as toolkit
 from ckan.lib.plugins import DefaultTranslation
 
+
 def total_packages():
     '''Return a total package number.'''
 
@@ -13,6 +14,7 @@ def total_packages():
         total = total + group['package_count']
     return total
 
+
 def all_groups():
     '''Return a sorted list of the groups with the most datasets.'''
 
@@ -20,8 +22,10 @@ def all_groups():
     # datasets.
     return toolkit.get_action('group_list')(data_dict={'all_fields': True, 'limit': 10})
 
+
 def latest_changed_packages():
     return toolkit.get_action('recently_changed_packages_activity_list')(data_dict={'limit': 5})
+
 
 def show_cases():
     # title, notes, metadata_modified, author, extras:[{'value': '', 'key':'image_url'}]
@@ -36,11 +40,14 @@ def show_cases():
                     image = i['value']
                     break
 
-        result.append({'title': case['title'], 'notes': case['notes'],'updated_at': case['metadata_modified'], 'author': case['author'], 'image': image})
+        result.append({'title': case['title'], 'name': case['name'], 'notes': case['notes'],
+                       'updated_at': case['metadata_modified'], 'author': case['author'], 'image': image})
     return result
+
 
 def date_string(ts):
     return ts[0:10]
+
 
 class Num_ThemePlugin(plugins.SingletonPlugin, DefaultTranslation):
     plugins.implements(plugins.ITranslation, inherit=True)
