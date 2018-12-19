@@ -1,4 +1,19 @@
 /* =====================================================
+   General
+   ===================================================== */
+body{
+    font-family: "Roboto";
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Roboto Condensed";
+}
+
+.toolbar .breadcrumb a{
+    font-family: "Roboto Condensed";
+}
+
+/* =====================================================
    The "account masthead" bar across the top of the site
    ===================================================== */
 
@@ -92,7 +107,7 @@
 /* Add a border line between the top and bottom halves of the front page. */
 .homepage [role="main"] {
     border-top: 1px solid rgb(204, 204, 204);
-    min-height: 200px;
+    min-height: 230px;
 }
 
 .media-overlay .media-heading{
@@ -250,5 +265,22 @@ article .entry-meta{
 
 article .entry-meta time{
     color: #8792a4;
-
 }
+
+/* =====================================================
+   Home page search bar
+   ===================================================== */
+.getstarted {
+    text-transform: uppercase;
+}
+
+.getstarted label {
+    display: inline-block;
+    margin-bottom: 5px;
+    font-weight: 700;
+    font-size: 1.3em;
+}
+.getstarted .fa-caret-down {
+    font-size: 33.6px;
+}
+

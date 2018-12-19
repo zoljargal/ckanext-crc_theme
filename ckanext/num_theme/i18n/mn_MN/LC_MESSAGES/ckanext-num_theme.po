@@ -47,4 +47,64 @@ msgstr "Монгол улс, Улаанбаатар хот, Бага тойру�
 msgid "National University of Mongolia"
 msgstr "Монгол Улсын Их Сургууль"
 
+msgid "Browse Topics"
+msgstr "Бүлгүүд"
 
+msgid "Updates"
+msgstr "Сүүлд шинэчлэгдсэн"
+
+msgid "E.g. organization structure"
+msgstr "Ж.н. байгууллагын бүтэц"
+
+msgid "Showcases"
+msgstr "Хэрэглээ"
+
+msgid "{number} showcase found for '{query}'"
+msgid_plural "{number} showcases found for '{query}'"
+msgstr[0] "'{query}' - д {number} жишээ олдлоо"
+msgstr[1] "'{query}' - д {number} жишээ олдлоо"
+
+#: ckanext/showcase/templates/showcase/snippets/showcase_search_result_text.html:8
+msgid "No showcases found for '{query}'"
+msgstr "'{query}' -д тохирох жишээ олдсонгүй"
+
+#: ckanext/showcase/templates/showcase/snippets/showcase_search_result_text.html:9
+msgid "{number} showcase found"
+msgid_plural "{number} showcases found"
+msgstr[0] "{number} жишээ байна"
+msgstr[1] "{number} жишээ байна"
+
+#: ckanext/showcase/templates/showcase/snippets/showcase_search_result_text.html:10
+msgid "No showcases found"
+msgstr "Жишээ олдсонгүй"
+
+msgid "Datasets in this showcase"
+msgstr "Энэ жишээн дэх өгөгдлийн бүрдлүүд"
+
+msgid "Datasets in this showcase"
+msgstr "Өгөгдлийн бүрдлүүд"
+
+msgid "What are Showcases?"
+msgstr "Хэрэглээ гэж юу вэ?"
+
+msgid ""
+"Datasets have been used to build apps, websites and visualizations. They've "
+"been featured in articles, and written about in news reports and blog posts. "
+"Showcases collect together the best examples of datasets in use, to provide "
+"further insight, ideas, and inspiration."
+msgstr "Өгөгдөл ашиглан хөгжүүлсэн аппликейшин, веб сайт, өгөгдлийн дүрслэл бөгөөд өн өгөгдлийн бүрдлүүдийг ашиглан өөр зүйл хийх, бүтээх боломжийг харуулж буй санаа юм."
+
+msgid "Launch website"
+msgstr "Веб хуудас"
+
+msgid "Search showcases..."
+msgstr "Жишээ хайх..."
+
+msgid "more"
+msgstr "дэлгэрэнгүй"
+
+msgid "changed package"
+msgstr "өөрчилсөн өгөгдөл"
+
+msgid "new package"
+msgstr "шинэ өгөгдөл"

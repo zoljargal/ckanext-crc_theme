@@ -13,7 +13,7 @@ def all_groups():
     return groups
 
 def latest_changed_packages():
-    return toolkit.get_action('recently_changed_packages_activity_list')(data_dict={'limit': 10})
+    return toolkit.get_action('recently_changed_packages_activity_list')(data_dict={'limit': 5})
 
 def date_string(ts):
     return ts[0:10]

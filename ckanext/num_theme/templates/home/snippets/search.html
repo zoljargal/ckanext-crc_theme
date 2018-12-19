@@ -1,0 +1,40 @@
+{% set placeholder = _('E.g. organization structure') %}
+
+<div class="module ">
+    <div class="text-center getstarted">
+        {% if h.lang()=='mn_MN' %}
+
+
+        <h4>
+            <a href="/dataset">5 </a>
+            <small>Өгөгдлийн бүрдлээс</small>
+            <br>
+            <label>ХАЙХ<br>
+                <i class="fa fa-caret-down"></i>
+            </label>
+        </h4>
+        {% else %}
+        <h4><label>Get Started<br>
+            <small>Search over <a href="/dataset">5 datasets</a>
+            </small>
+            <br><i class="fa fa-caret-down"></i></label></h4>
+
+        {% endif %}
+    </div>
+    <form class="module-content" method="get" action="{% url_for '/dataset' %}">
+
+        <div class="input-group search-input-group">
+            <input aria-label="{% block header_site_search_label %}{{ _('Search datasets') }}{% endblock %}"
+                   id="field-main-search" type="text" class="form-control input-lg"
+                   name="q" value="" autocomplete="off"
+                   placeholder="{% block search_placeholder %}{{ placeholder }}{% endblock %}"/>
+            <span class="input-group-btn">
+                <button class="btn btn-default btn-lg" type="submit" value="search">
+                    <i class="fa fa-search"></i>
+                    <span class="sr-only">{{ _('Search') }}</span>
+                </button>
+            </span>
+        </div>
+    </form>
+
+</div>
