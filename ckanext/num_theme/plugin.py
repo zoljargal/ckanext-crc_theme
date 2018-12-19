@@ -8,7 +8,7 @@ def all_groups():
     # Get a list of all the site's groups from CKAN, sorted by number of
     # datasets.
     groups = toolkit.get_action('group_list')(
-        data_dict={'all_fields': True})
+        data_dict={'all_fields': True, 'limit': 10})
 
     return groups
 

@@ -1,7 +1,7 @@
 <div class="container">
     <div class="row">
         <div class="page-header">
-            <h1>Updates</h1>
+            <h1> {{ _('Updates') }}</h1>
         </div>
 
         {% for package in h.num_latest_changed_packages() %}
@@ -23,7 +23,15 @@
                 </div>
             </header>
             <div class="entry-notes">
-                <div class="card-description"> {{ package.data.package.notes }}</div>
+                <div class="card-description">
+                    {{ package.data.package.notes[0:450] }}
+                    {% if package.data.package.notes|length > 449 %}
+                    ...
+                    <a id="{{ package.data.package.name }}"
+                       href="{{ h.url_for('/dataset') }}/{{ package.data.package.name }}"
+                       class="local-link"><i>{{ _('more') }}</i></a>
+                    {% endif %}
+                </div>
             </div>
         </article>
         {% endfor %}
