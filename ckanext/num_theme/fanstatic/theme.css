@@ -191,9 +191,8 @@ body {
 .feature-group-box{
   padding: 10px;
   margin:10px 30px;
-
   border-radius: 3px;
-  width: 180px;
+  width: 120px;
   float: left;
   text-align: center;
   color: #275379;
