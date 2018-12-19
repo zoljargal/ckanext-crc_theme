@@ -1,0 +1,25 @@
+<section class="wrap wrap-lightblue">
+    <div class="container">
+        <div class="page-header">
+            <h1>{{ _('Showcases') }}</h1>
+        </div>
+        {% for showcase in h.num_show_cases() %}
+
+        <div class="carousel highlights slide">
+            <h2 class="entry-title" style="float:left;">
+                {{ showcase.title }}
+            </h2>
+            <br clear="all">
+            <article>
+                <div>
+                    {{ showcase.notes }}
+                </div>
+                <figure class="thumbnail aligncenter">
+                    <img src="/uploads/showcase/{{showcase.image}}"/>
+                </figure>
+            </article>
+
+        </div>
+        {% endfor %}
+    </div>
+</section>

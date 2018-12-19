@@ -108,3 +108,6 @@ msgstr "өөрчилсөн өгөгдөл"
 
 msgid "new package"
 msgstr "шинэ өгөгдөл"
+
+msgid "Showcases"
+msgstr "Хэрэглээ"

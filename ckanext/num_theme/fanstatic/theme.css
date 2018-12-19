@@ -283,3 +283,46 @@ article .entry-meta time{
     font-size: 33.6px;
 }
 
+
+.wrap-lightblue {
+    background-color: #60a1d3;
+    padding-bottom: 2em;
+}
+
+.wrap-lightblue header, .wrap-lightblue article {
+    color: #fff;
+}
+
+.wrap-lightblue h1, .wrap-lightblue h2{
+    color: #fff !important;
+}
+
+.wrap-lightblue h2{
+    font-size: 30px;
+}
+
+.wrap-lightblue .thumbnail {
+    padding: 4px;
+    line-height: 1.428571429;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    -webkit-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+    height: auto;
+    display: block;
+    margin-bottom: 22px;
+    margin-top: 22px;
+    max-width: 714px;
+}
+
+.aligncenter {
+    display: block;
+    margin: 0 auto;
+}
+
+.wrap-lightblue .page-header{
+    border-radius: 0 3px 0 0;
+    color: #fff;
+    background: #60a1d3;
+}
