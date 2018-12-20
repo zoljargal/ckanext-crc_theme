@@ -25,6 +25,9 @@ def all_groups():
 def latest_changed_packages():
     return toolkit.get_action('recently_changed_packages_activity_list')(data_dict={'limit': 5})
 
+def latest_packages():
+    return toolkit.get_action('package_list')(data_dict={'limit': 5})
+
 def show_cases():
     # title, notes, metadata_modified, author, extras:[{'value': '', 'key':'image_url'}]
     cases = toolkit.get_action('ckanext_showcase_list')(data_dict={'limit': 1})
@@ -69,4 +72,5 @@ class Num_ThemePlugin(plugins.SingletonPlugin, DefaultTranslation):
             'date_string_from_timestamp': date_string,
             'num_total_packages': total_packages,
             'num_show_cases': show_cases,
+            'num_latest_packages': latest_packages
         }
