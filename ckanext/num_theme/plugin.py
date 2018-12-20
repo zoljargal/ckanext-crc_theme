@@ -22,14 +22,12 @@ def all_groups():
     # datasets.
     return toolkit.get_action('group_list')(data_dict={'all_fields': True, 'limit': 10})
 
-
 def latest_changed_packages():
     return toolkit.get_action('recently_changed_packages_activity_list')(data_dict={'limit': 5})
 
-
 def show_cases():
     # title, notes, metadata_modified, author, extras:[{'value': '', 'key':'image_url'}]
-    cases = toolkit.get_action('ckanext_showcase_list')(data_dict={'limit': 3})
+    cases = toolkit.get_action('ckanext_showcase_list')(data_dict={'limit': 1})
     result = []
     for case in cases:
         extra = case['extras']
@@ -44,10 +42,8 @@ def show_cases():
                        'updated_at': case['metadata_modified'], 'author': case['author'], 'image': image})
     return result
 
-
 def date_string(ts):
     return ts[0:10]
-
 
 class Num_ThemePlugin(plugins.SingletonPlugin, DefaultTranslation):
     plugins.implements(plugins.ITranslation, inherit=True)

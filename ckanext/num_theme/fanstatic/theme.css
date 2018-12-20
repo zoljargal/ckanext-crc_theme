@@ -313,7 +313,7 @@ article .entry-meta time{
     display: block;
     margin-bottom: 22px;
     margin-top: 22px;
-    max-width: 714px;
+    max-width: 100%;
 }
 
 .aligncenter {
@@ -325,4 +325,12 @@ article .entry-meta time{
     border-radius: 0 3px 0 0;
     color: #fff;
     background: #60a1d3;
+}
+
+h2.entry-title{
+    font-weight: 400;
+}
+
+p.ckanext-showcase-image-container img{
+    max-width: 100%;
 }
