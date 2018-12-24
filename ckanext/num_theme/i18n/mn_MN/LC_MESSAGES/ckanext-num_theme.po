@@ -59,7 +59,7 @@ msgstr "Сүүлд шинэчлэгдсэн"
 msgid "E.g. organization structure"
 msgstr "Жишээ нь: байгууллагын бүтэц"
 
-msgid "{number} datasets found"
+msgid "{number} dataset found:{number} datasets found"
 msgstr "{number} өгөгдлийн бүрдэл олдлоо"
 
 msgid "Search datasets..."
