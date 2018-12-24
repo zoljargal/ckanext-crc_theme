@@ -47,6 +47,9 @@ msgstr "Монгол улс, Улаанбаатар хот, Бага тойру�
 msgid "National University of Mongolia"
 msgstr "Монгол Улсын Их Сургууль"
 
+msgid "Since 2018, National University of Mongolia"
+msgstr "Монгол Улсын Их Сургууль, 2018 оноос хойш"
+
 msgid "Browse Topics"
 msgstr "Бүлгүүд"
 
@@ -54,7 +57,13 @@ msgid "Updates"
 msgstr "Сүүлд шинэчлэгдсэн"
 
 msgid "E.g. organization structure"
-msgstr "Ж.н. байгууллагын бүтэц"
+msgstr "Жишээ нь: байгууллагын бүтэц"
+
+msgid "{number} datasets found"
+msgstr "{number} өгөгдлийн бүрдэл олдлоо"
+
+msgid "Search datasets..."
+msgstr "Өгөгдлийн бүрдэл хайх..."
 
 msgid "Showcases"
 msgstr "Хэрэглээ"
