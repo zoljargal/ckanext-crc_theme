@@ -10,18 +10,18 @@ with open(path.join(here, 'README.rst'), encoding='utf-8') as f:
     long_description = f.read()
 
 setup(
-    name='''ckanext-num_theme''',
+    name='''ckanext-crc_theme''',
 
     # Versions should comply with PEP440.  For a discussion on single-sourcing
     # the version across setup.py and the project code, see
     # http://packaging.python.org/en/latest/tutorial.html#version
     version='0.0.1',
 
-    description='''A theme extension for Nation''',
+    description='''A theme extension for CRC of Mongolia''',
     long_description=long_description,
 
     # The project's main homepage.
-    url='https://github.com/zoljargal/ckanext-num_theme',
+    url='https://github.com/zoljargal/ckanext-crc_theme',
 
     # Author details
     author='''Zoljargal Munkhjargal''',
@@ -80,7 +80,7 @@ setup(
     # pip to create the appropriate form of executable for the target platform.
     entry_points='''
         [ckan.plugins]
-        num_theme=ckanext.num_theme.plugin:Num_ThemePlugin
+        crc_theme=ckanext.crc_theme.plugin:CRC_ThemePlugin
 
         [babel.extractors]
         ckan = ckan.lib.extract:extract_ckan
