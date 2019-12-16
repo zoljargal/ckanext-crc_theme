@@ -48,7 +48,7 @@ setup(
 
 
     # What does your project relate to?
-    keywords='''CKAN theme university open data''',
+    keywords='''CKAN theme open data''',
 
     # You can just specify the packages manually here if your project is
     # simple. Or you can use find_packages().
