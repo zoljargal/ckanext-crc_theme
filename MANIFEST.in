@@ -1,4 +1,4 @@
 include README.rst
 include LICENSE
 include requirements.txt
-recursive-include ckanext/num_theme *.html *.json *.js *.less *.css *.mo
+recursive-include ckanext/crc_theme *.html *.json *.js *.less *.css *.mo

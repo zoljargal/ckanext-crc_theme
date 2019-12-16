@@ -41,14 +41,14 @@ msgstr "Цахим шуудан"
 msgid "Web site"
 msgstr "Веб хуудас"
 
-msgid "IKH SURGUULIIN GUDAMJ-1 P.O.BOX -46A/523, 14201 ULAANBAATAR, MONGOLIA"
-msgstr "Монгол улс, Улаанбаатар хот, Бага тойруу, Их сургуулийн гудамж - 1"
+msgid "Metro Business Center, Floor-5 D.Sukhbaatar street-13 Sukhbaatar district UB 14201-0033"
+msgstr "Монгол улс, Улаанбаатар хот, Сүхбаатар дүүрэг, Д.Сүхбаатарын гудамж-13, Метро Бизнес Төв, 5-р давхар, 14201-0033"
 
-msgid "National University of Mongolia"
-msgstr "Монгол Улсын Их Сургууль"
+msgid "Communications Regulatory Commission of Mongolia"
+msgstr "Харилцаа Холбооны Зохицуулах Хороо"
 
-msgid "Since 2018, National University of Mongolia"
-msgstr "Монгол Улсын Их Сургууль, 2018 оноос хойш"
+msgid "Since 2019, Communications Regulatory Commission of Mongolia"
+msgstr "Харилцаа Холбооны Зохицуулах Хороо, 2019 оноос хойш"
 
 msgid "Browse Topics"
 msgstr "Бүлгүүд"

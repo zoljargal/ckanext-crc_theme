@@ -46,7 +46,7 @@ a {
 
 .account-masthead .account ul li {
     border-left: none;
-    /*border-left: 1px solid #0e1488;*/
+    border-right: 1px solid #ccc;
 }
 
 /* ========================================================================
@@ -135,6 +135,7 @@ a {
 .media-overlay .media-heading {
     background-color: #ffcd29;
     color: #fff;
+    border-radius: 0px;
 }
 
 /* ====================================

@@ -8,7 +8,7 @@ nosetests --ckan \
           --nologcapture \
           --with-pylons=subdir/test.ini \
           --with-coverage \
-          --cover-package=ckanext.num_theme \
+          --cover-package=ckanext.crc_theme \
           --cover-inclusive \
           --cover-erase \
           --cover-tests

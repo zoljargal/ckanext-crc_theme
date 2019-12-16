@@ -2,34 +2,34 @@
    these badges work. The necessary Travis and Coverage config files have been
    generated for you.
 
-.. image:: https://travis-ci.org/zoljargal/ckanext-num_theme.svg?branch=master
-    :target: https://travis-ci.org/zoljargal/ckanext-num_theme
+.. image:: https://travis-ci.org/zoljargal/ckanext-crc_theme.svg?branch=master
+    :target: https://travis-ci.org/zoljargal/ckanext-crc_theme
 
-.. image:: https://coveralls.io/repos/zoljargal/ckanext-num_theme/badge.svg
-  :target: https://coveralls.io/r/zoljargal/ckanext-num_theme
+.. image:: https://coveralls.io/repos/zoljargal/ckanext-crc_theme/badge.svg
+  :target: https://coveralls.io/r/zoljargal/ckanext-crc_theme
 
-.. image:: https://pypip.in/download/ckanext-num_theme/badge.svg
-    :target: https://pypi.python.org/pypi//ckanext-num_theme/
+.. image:: https://pypip.in/download/ckanext-crc_theme/badge.svg
+    :target: https://pypi.python.org/pypi//ckanext-crc_theme/
     :alt: Downloads
 
-.. image:: https://pypip.in/version/ckanext-num_theme/badge.svg
-    :target: https://pypi.python.org/pypi/ckanext-num_theme/
+.. image:: https://pypip.in/version/ckanext-crc_theme/badge.svg
+    :target: https://pypi.python.org/pypi/ckanext-crc_theme/
     :alt: Latest Version
 
-.. image:: https://pypip.in/py_versions/ckanext-num_theme/badge.svg
-    :target: https://pypi.python.org/pypi/ckanext-num_theme/
+.. image:: https://pypip.in/py_versions/ckanext-crc_theme/badge.svg
+    :target: https://pypi.python.org/pypi/ckanext-crc_theme/
     :alt: Supported Python versions
 
-.. image:: https://pypip.in/status/ckanext-num_theme/badge.svg
-    :target: https://pypi.python.org/pypi/ckanext-num_theme/
+.. image:: https://pypip.in/status/ckanext-crc_theme/badge.svg
+    :target: https://pypi.python.org/pypi/ckanext-crc_theme/
     :alt: Development Status
 
-.. image:: https://pypip.in/license/ckanext-num_theme/badge.svg
-    :target: https://pypi.python.org/pypi/ckanext-num_theme/
+.. image:: https://pypip.in/license/ckanext-crc_theme/badge.svg
+    :target: https://pypi.python.org/pypi/ckanext-crc_theme/
     :alt: License
 
 =============
-ckanext-num_theme
+ckanext-crc_theme
 =============
 
 .. Put a description of your extension here:
@@ -53,17 +53,17 @@ Installation
    For example installing any non-Python dependencies or adding any required
    config settings.
 
-To install ckanext-num_theme:
+To install ckanext-crc_theme:
 
 1. Activate your CKAN virtual environment, for example::
 
      . /usr/lib/ckan/default/bin/activate
 
-2. Install the ckanext-num_theme Python package into your virtual environment::
+2. Install the ckanext-crc_theme Python package into your virtual environment::
 
-     pip install ckanext-num_theme
+     pip install ckanext-crc_theme
 
-3. Add ``num_theme`` to the ``ckan.plugins`` setting in your CKAN
+3. Add ``crc_theme`` to the ``ckan.plugins`` setting in your CKAN
    config file (by default the config file is located at
    ``/etc/ckan/default/production.ini``).
 
@@ -80,18 +80,18 @@ Document any oppotional config settings here. For example::
 
     # The minimum number of hours to wait before re-checking a resource
     # (optional, default: 24).
-    ckanext.num_theme.some_setting = some_default_value
+    ckanext.crc_theme.some_setting = some_default_value
 
 
 ------------------------
 Development Installation
 ------------------------
 
-To install ckanext-num_theme for development, activate your CKAN virtualenv and
+To install ckanext-crc_theme for development, activate your CKAN virtualenv and
 do::
 
-    git clone https://github.com/zoljargal/ckanext-num_theme.git
-    cd ckanext-num_theme
+    git clone https://github.com/zoljargal/ckanext-crc_theme.git
+    cd ckanext-crc_theme
     python setup.py develop
     pip install -r dev-requirements.txt
 
@@ -107,15 +107,15 @@ To run the tests, do::
 To run the tests and produce a coverage report, first make sure you have
 coverage installed in your virtualenv (``pip install coverage``) then run::
 
-    nosetests --nologcapture --with-pylons=test.ini --with-coverage --cover-package=ckanext.num_theme --cover-inclusive --cover-erase --cover-tests
+    nosetests --nologcapture --with-pylons=test.ini --with-coverage --cover-package=ckanext.crc_theme --cover-inclusive --cover-erase --cover-tests
 
 
 ---------------------------------
-Registering ckanext-num_theme on PyPI
+Registering ckanext-crc_theme on PyPI
 ---------------------------------
 
-ckanext-num_theme should be availabe on PyPI as
-https://pypi.python.org/pypi/ckanext-num_theme. If that link doesn't work, then
+ckanext-crc_theme should be availabe on PyPI as
+https://pypi.python.org/pypi/ckanext-crc_theme. If that link doesn't work, then
 you can register the project on PyPI for the first time by following these
 steps:
 
@@ -140,10 +140,10 @@ steps:
 
 
 ----------------------------------------
-Releasing a New Version of ckanext-num_theme
+Releasing a New Version of ckanext-crc_theme
 ----------------------------------------
 
-ckanext-num_theme is availabe on PyPI as https://pypi.python.org/pypi/ckanext-num_theme.
+ckanext-crc_theme is availabe on PyPI as https://pypi.python.org/pypi/ckanext-crc_theme.
 To publish a new version to PyPI follow these steps:
 
 1. Update the version number in the ``setup.py`` file.
