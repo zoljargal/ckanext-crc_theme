@@ -1,16 +1,22 @@
 /* =====================================================
    General
    ===================================================== */
-body{
+body {
     font-family: "Roboto";
+    background: #eee;
+    color: #3c3c3c;
 }
 
 h1, h2, h3, h4, h5, h6 {
     font-family: "Roboto Condensed";
 }
 
-.toolbar .breadcrumb a{
+.toolbar .breadcrumb a {
     font-family: "Roboto Condensed";
+}
+
+a {
+    color: #014689;
 }
 
 /* =====================================================
@@ -18,21 +24,24 @@ h1, h2, h3, h4, h5, h6 {
    ===================================================== */
 
 .account-masthead {
-    background: #143b78;
+    background: #eee;
 }
+
 /* The "bubble" containing the number of new notifications. */
 .account-masthead .account .notifications a span {
-  background: #143b78;
+    background: #ffffff;
 }
+
 /* The text and icons in the user account info. */
 .account-masthead .account ul li a {
-  color: rgba(255, 255, 255, 0.8);
+    color: #818181;
 }
+
 /* The user account info text and icons, when the user's pointer is hovering
    over them. */
 .account-masthead .account ul li a:hover {
-  color: rgba(255, 255, 255, 0.7);
-  /*background-color: whitesmoke;*/
+    color: rgba(255, 255, 255, 0.7);
+    /*background-color: whitesmoke;*/
 }
 
 .account-masthead .account ul li {
@@ -45,26 +54,32 @@ h1, h2, h3, h4, h5, h6 {
    ======================================================================== */
 
 .masthead {
-  background: #1b4588;
+    background: #ffffff;
 }
+
 /* The "navigation pills" in the masthead (the links to Datasets,
    Organizations, etc) when the user's pointer hovers over them. */
 .masthead .navigation .nav-pills li a:hover {
-  background-color: #143b78;
-  color: white;
+    background-color: #00afef;
+    color: #ffffff;
 }
+
 /* The "active" navigation pill (for example, when you're on the /dataset page
    the "Datasets" link is active). */
 .masthead .navigation .nav-pills li.active a {
-  background-color: #143b78;
+    background-color: #00afef;
 }
+
 /* The "box shadow" effect that appears around the search box when it
    has the keyboard cursor's focus. */
 .masthead input[type="text"]:focus {
-  -webkit-box-shadow: inset 0px 0px 2px 0px rgba(0, 0, 0, 0.7);
-  box-shadow: inset 0px 0px 2px 0px rgba(0, 0, 0, 0.7);
+    -webkit-box-shadow: inset 0px 0px 2px 0px rgba(0, 0, 0, 0.7);
+    box-shadow: inset 0px 0px 2px 0px rgba(0, 0, 0, 0.7);
 }
 
+.masthead .nav > li > a {
+    color: #333;
+}
 
 /* ===========================================
    The content in the middle of the front page
@@ -72,46 +87,54 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Remove the "box shadow" effect around various boxes on the page. */
 .box {
-  box-shadow: none;
+    box-shadow: none;
+    border-radius: 0px;
 }
+
 /* Remove the borders around the "Welcome to CKAN" and "Search Your Data"
    boxes. */
 .hero .box {
-  /*border: none;*/
+    /*border: none;*/
 }
 
-.num-hero{
+.num-hero {
     background: #efefef !important;
 }
+
 /* Change the colors of the "Search Your Data" box. */
 .homepage .module-search .module-content {
-  color: rgb(68, 68, 68);
-  background-color: white;
-}
-/* Change the background color of the "Popular Tags" box. */
-.homepage .module-search .tags {
-  background-color: rgba(22, 77, 136, 0.7);
-}
-/* Remove some padding. This makes the bottom edges of the "Welcome to CKAN"
-   and "Search Your Data" boxes line up. */
-.module-content:last-child {
-  padding-bottom: 0px;
-}
-.homepage .module-search {
-  padding: 0px;
+    color: rgb(68, 68, 68);
+    background-color: white;
 }
 
-[role="main"] .main{
+/* Change the background color of the "Popular Tags" box. */
+.homepage .module-search .tags {
+    background-color: #ffcd29;
+    border-radius: 0px;
+}
+
+/* Remove some padding. This makes the bottom edges of the "Welcome to CKAN"
+   and "Search Your Data" boxes line up. */
+/*.module-content:last-child {*/
+/*  padding-bottom: 0px;*/
+/*}*/
+.homepage .module-search {
+    padding: 0px;
+}
+
+[role="main"] .main {
     background: #efefef;
 }
+
 /* Add a border line between the top and bottom halves of the front page. */
 .homepage [role="main"] {
     border-top: 1px solid #ccc;
     min-height: 220px;
 }
 
-.media-overlay .media-heading{
-    background-color: rgba(22, 77, 136, 0.7);
+.media-overlay .media-heading {
+    background-color: #ffcd29;
+    color: #fff;
 }
 
 /* ====================================
@@ -120,17 +143,19 @@ h1, h2, h3, h4, h5, h6 {
 
 .site-footer,
 body {
-  background:#1b4588;
+    background: #002b42;
 }
+
 /* The text in the footer. */
 .site-footer,
 .site-footer label,
 .site-footer small {
-  color: rgba(255, 255, 255, 0.6);
+    color: rgba(255, 255, 255, 0.6);
 }
+
 /* The link texts in the footer. */
 .site-footer a {
-  color: rgba(255, 255, 255, 0.7);
+    color: rgba(255, 255, 255, 0.7);
 }
 
 .footer-social {
@@ -145,10 +170,12 @@ body {
     line-height: 34px; /* vertical center */
     text-align: center; /* horizontal center */
 }
-.footer-social a{
+
+.footer-social a {
     float: right;
     margin-left: 5px;
 }
+
 @media (min-width: 768px) {
     .hero {
         /*background: url(/sesmimbg.jpg);*/
@@ -162,72 +189,75 @@ body {
    main features
    =========================================== */
 
-[role=main], .main{
-  /*background: #efefef;*/
-    background: white;
+[role=main], .main {
+    background: #eee;
 }
 
-.wrapper{
-  border:none;
-  border-radius: 0px;
-  -webkit-box-shadow: none;
-  box-shadow: none;
+.wrapper {
+    border: none;
+    border-radius: 0px;
+    -webkit-box-shadow: none;
+    box-shadow: none;
 }
 
-.page-header{
-  background-color: white;
+.page-header {
+    background-color: white;
 }
 
 /* ===========================================
    The feature groups
    =========================================== */
 
-.feature-groups{
-  display: flex;
+.feature-groups {
+    display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
 
-.feature-group-box{
-  padding: 10px;
-  margin:10px 30px;
-  border-radius: 3px;
-  width: 120px;
-  float: left;
-  text-align: center;
-  color: #275379;
+.feature-group-box {
+    padding: 10px;
+    margin: 10px 30px;
+    border-radius: 3px;
+    width: 120px;
+    float: left;
+    text-align: center;
+    color: #275379;
 }
 
-.feature-group-box .group-name{
-  display: block;
-  /* color: #acd6a9; */
-  /* text-transform: uppercase; */
+.feature-group-box .group-name {
+    display: block;
+    /* color: #acd6a9; */
+    /* text-transform: uppercase; */
 }
 
-.group-link{
-  height: 100%;
-  width: 100%;
-  margin: auto;
-  text-align: center;
-  font-size: 14px;
-}
-.feature-groups a{
-  text-decoration: none;
-  word-break: break-word;
-  cursor: pointer;
-}
-.feature-groups a:hover{
-  background: lightgray;
-  transition: all 0.2s ease-in-out;
-}
-.group-image{
-  margin-bottom: 10px;
-}
-.group-image img{
-  max-width: 100px;
+.group-link {
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    font-size: 14px;
 }
 
-.media-item .media-image{
+.feature-groups a {
+    text-decoration: none;
+    word-break: break-word;
+    cursor: pointer;
+}
+
+.feature-groups a:hover {
+    background: lightgray;
+    transition: all 0.2s ease-in-out;
+}
+
+.group-image {
+    margin-bottom: 10px;
+}
+
+.group-image img {
+    max-width: 100px;
+}
+
+.media-item .media-image {
     max-width: 150px;
 }
 
@@ -246,23 +276,24 @@ body {
     border-bottom: 1px solid #E2E2E2;
 }
 
-article header{
+article header {
     margin-bottom: 11px;
 }
-article .entry-title{
+
+article .entry-title {
     margin-bottom: 0px;
 }
 
-article .entry-title a{
+article .entry-title a {
     text-decoration: none;
     color: #428bca;
 }
 
-article .entry-meta{
+article .entry-meta {
     font-size: 0.85em;
 }
 
-article .entry-meta time{
+article .entry-meta time {
     color: #8792a4;
 }
 
@@ -279,6 +310,7 @@ article .entry-meta time{
     font-weight: 700;
     font-size: 1.3em;
 }
+
 .getstarted .fa-caret-down {
     font-size: 33.6px;
 }
@@ -293,11 +325,11 @@ article .entry-meta time{
     color: #fff;
 }
 
-.wrap-lightblue h1, .wrap-lightblue h2{
+.wrap-lightblue h1, .wrap-lightblue h2 {
     color: #fff !important;
 }
 
-.wrap-lightblue h2{
+.wrap-lightblue h2 {
     font-size: 30px;
 }
 
@@ -321,16 +353,16 @@ article .entry-meta time{
     margin: 0 auto;
 }
 
-.wrap-lightblue .page-header{
+.wrap-lightblue .page-header {
     border-radius: 0 3px 0 0;
     color: #fff;
     background: #60a1d3;
 }
 
-h2.entry-title{
+h2.entry-title {
     font-weight: 400;
 }
 
-p.ckanext-showcase-image-container img{
+p.ckanext-showcase-image-container img {
     max-width: 100%;
 }
