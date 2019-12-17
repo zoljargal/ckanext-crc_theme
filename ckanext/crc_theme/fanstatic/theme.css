@@ -138,6 +138,18 @@ a {
     border-radius: 0px;
 }
 
+.pill {
+    background-color: #00afef;
+}
+.nav-item.active>a, .nav-aside li.active a{
+    background-color: #00afef;
+}
+.nav-item.active>a:hover, .nav-aside li.active a:hover{
+    background-color: #00afef;
+}
+.nav-item.active>a:before,.nav-aside li.active a:before {
+    border-left-color: #00afef;
+}
 /* ====================================
    The footer at the bottom of the site
    ==================================== */
