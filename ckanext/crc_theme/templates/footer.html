@@ -2,10 +2,10 @@
     <div class="container">
         <div>&nbsp;</div>
         <div class="row">
-            <div class="col-md-2 ">
+            <div class="pull-left" style="margin-left: 10px; margin-right: 60px;">
                 <img src="/crc_white60.png">
             </div>
-            <div class="col-md-10 attribution">
+            <div class="pull-left attribution">
 
                 <p><strong style="text-transform: uppercase; color:white;">{{ _('Contact us') }}</strong></p><br/>
 
@@ -26,19 +26,18 @@
                         <a href="www.crc.gov.mn">www.crc.gov.mn</a></span>
                 </div>
                 <br/>
-                <div>
-                    <p>Powered by <a class="hide-text ckan-footer-logo" target="_blank" href="http://ckan.org">CKAN</a></p>
-                </div>
             </div>
+
         </div>
         <div class="row">
             <div style="float: right;">
-                <div class="footer-social">
-                    <!--<a href="https://www.facebook.com/MUIS1942" target="_blank"><i class="fa fa-facebook circle"></i></a>-->
-                    <!--<a href="https://twitter.com/num_edu" target="_blank"><i class="fa fa-twitter circle"></i></a>-->
-                    <!--<a href="#"><i class="fa fa-google-plus circle"></i></a>-->
-                    <!--<a href="https://www.youtube.com/channel/UCfWHF5c7aUtTDF93jqSvWXQ" target="_blank"><i-->
-                    <!--class="fa fa-youtube-play circle"></i></a>-->
+                <div style="margin-right: 20px; float:left;">
+                    {% block footer_lang %}
+                        {% snippet "snippets/language_selector.html" %}
+                    {% endblock %}
+                </div>
+                <div style="margin-right: 20px; float:left;">
+                    Powered by <a class="hide-text ckan-footer-logo" target="_blank" href="http://ckan.org">CKAN</a>
                 </div>
             </div>
         </div>
@@ -46,9 +45,10 @@
         <div class="row">
             <div class="col-md-12">
                 <div style="float: right;">
-                    {{ _('Since 2019, Communications Regulatory Commission of Mongolia')}}
+                    {{ _('Since 2019, Communications Regulatory Commission of Mongolia') }}
                     <a href="https://creativecommons.org/licenses/by-sa/2.0" target="_blank">
-                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/CC-BY-SA_icon_white.svg/2000px-CC-BY-SA_icon_white.svg.png" style="width: 80px;">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/CC-BY-SA_icon_white.svg/2000px-CC-BY-SA_icon_white.svg.png"
+                             style="width: 80px;">
                     </a>
                 </div>
             </div>
@@ -57,8 +57,8 @@
     </div>
 
     {% block footer_debug %}
-    {% if g.debug %}
-    {% include 'snippets/debug.html' %}
-    {% endif %}
+        {% if g.debug %}
+            {% include 'snippets/debug.html' %}
+        {% endif %}
     {% endblock %}
 </footer>

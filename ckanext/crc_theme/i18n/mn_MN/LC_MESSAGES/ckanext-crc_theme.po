@@ -23,8 +23,64 @@ msgid "Contact us"
 msgstr "Холбоо барих"
 
 
-msgid "Thematic Areas"
-msgstr "Бүлгүүд"
+msgid "Datasets"
+msgstr "Өгөгдлийн бүрдэл"
+msgid "{num} Datasets"
+msgstr "{num} Өгөгдлийн бүрдэл"
+
+msgid "Organizations"
+msgstr "Алба хэлтэс"
+
+msgid "organizations"
+msgstr "алба хэлтэс"
+
+msgid "There are currently no organizations for this site"
+msgstr "Одоогоор алба хэлтэс бүртгэлгүй байна"
+
+msgid "What are Organizations?"
+msgstr "Алба хэлтэс гэж юу вэ?"
+
+msgid "{number} organizations found for \"{query}\""
+msgstr "\"{query}\"-н үр дүнд {number} алба хэлтэс олдлоо"
+
+msgid "No organizations found for \"{query}\""
+msgstr "\"{query}\"-д алба хэлтэс олдсонгүй"
+
+msgid '{number} organizations found'
+msgstr '{number} алба хэлтэс олдлоо'
+
+msgid 'No organizations found'
+msgstr 'Алба хэлтэс олдсонгүй'
+
+msgid 'Organization not found'
+msgstr 'Алба хэлтэс олдсонгүй'
+
+msgid 'Organization was not found.'
+msgstr 'Алба хэлтэс олдсонгүй'
+
+msgid 'My organizations'
+msgstr 'Миний алба хэлтэс'
+
+msgid "Add Organization"
+msgstr "Алба хэлтэс нэмэх"
+
+msgid "Search groups..."
+msgstr "Бүлэг хайх..."
+
+msgid "Search organizations..."
+msgstr "Алба хэлтэс хайх..."
+
+msgid "Search datasets..."
+msgstr "Өгөгдлийн бүрдэл хайх..."
+
+msgid "Groups"
+msgstr "Бүлэг"
+
+msgid "This dataset has no description"
+msgstr "Тайлбар оруулаагүй"
+
+msgid "{number} organizations found"
+msgstr "{number} алба хэлтэс"
 
 msgid "Keywords"
 msgstr "Түлхүүр үгс"
@@ -59,7 +115,23 @@ msgstr "Сүүлд шинэчлэгдсэн"
 msgid "E.g. organization structure"
 msgstr "Жишээ нь: байгууллагын бүтэц"
 
-msgid "{number} dataset found:{number} datasets found"
+msgid "{number} dataset found"
+msgid_plural "{number} datasets found"
+msgstr[0] "{number} өгөгдлийн бүрдэл олдлоо"
+msgstr[1] "{number} өгөгдлийн бүрдэл олдлоо"
+
+msgid "{number} dataset found for \"{query}\""
+msgid_plural "{number} datasets found for \"{query}\""
+msgstr[0] "\"{query}\" - н үр дүнд {number} өгөгдлийн бүрдэл олдлоо"
+msgstr[1] "\"{query}\" - н үр дүнд {number} өгөгдлийн бүрдэл олдлоо"
+
+msgid "No datasets found for \"{query}\""
+msgstr "\"{query}\" - д тохирох өгөгдлийн бүрдэл олдсонгүй"
+
+msgid "{number} datasets found"
+msgstr "{number} өгөгдлийн бүрдэл олдлоо"
+
+msgid "{number} dataset found"
 msgstr "{number} өгөгдлийн бүрдэл олдлоо"
 
 msgid "Search datasets..."

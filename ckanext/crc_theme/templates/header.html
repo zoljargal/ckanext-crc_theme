@@ -18,16 +18,15 @@
 
 {% block header_logo %}
 <a class="logo" href="{{ h.url_for('home.index') }}">
-
     <img src="{% if h.lang()=='mn_MN' %}/logo.png{% else %}/logo-eng.png{% endif %}" alt="{{ g.site_title }}"
          title="{{ g.site_title }}"/>
 </a>
 {% endblock %}
 
-{% block header_site_navigation_tabs %}
-<li>{% link_for _('Data'), named_route='search' %}</li>
-<li>{% link_for _('Organization'), named_route='/organization' %}</li>
-<li>{% link_for _('Groups'), named_route='/group' %}</li>
-<li>{% link_for _('About'), named_route='home.about' %}</li>
-<li class="finish"></li>
-{% endblock %}
+{#{% block header_site_navigation_tabs %}#}
+{#<li>{% link_for _('Data'), named_route='search' %}</li>#}
+{#<li>{% link_for _('Organization'), named_route='/organization' %}</li>#}
+{#<li>{% link_for _('Groups'), named_route='/group' %}</li>#}
+{#<li>{% link_for _('About'), named_route='home.about' %}</li>#}
+{#<li class="finish"></li>#}
+{#{% endblock %}#}
