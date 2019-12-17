@@ -25,6 +25,13 @@ msgstr "Холбоо барих"
 
 msgid "Datasets"
 msgstr "Өгөгдлийн бүрдэл"
+
+msgid "datasets"
+msgstr "өгөгдлийн бүрдэл"
+
+msgid "dataset"
+msgstr "өгөгдлийн бүрдэл"
+
 msgid "{num} Datasets"
 msgstr "{num} Өгөгдлийн бүрдэл"
 
@@ -124,6 +131,11 @@ msgid "{number} dataset found for \"{query}\""
 msgid_plural "{number} datasets found for \"{query}\""
 msgstr[0] "\"{query}\" - н үр дүнд {number} өгөгдлийн бүрдэл олдлоо"
 msgstr[1] "\"{query}\" - н үр дүнд {number} өгөгдлийн бүрдэл олдлоо"
+
+msgid "{number} group"
+msgid_plural "{number} groups"
+msgstr[0] "{number} бүлэг"
+msgstr[1] "{number} бүлэг"
 
 msgid "No datasets found for \"{query}\""
 msgstr "\"{query}\" - д тохирох өгөгдлийн бүрдэл олдсонгүй"
