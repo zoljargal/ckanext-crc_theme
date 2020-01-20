@@ -36,46 +36,46 @@ msgid "{num} Datasets"
 msgstr "{num} Өгөгдлийн бүрдэл"
 
 msgid "Organizations"
-msgstr "Алба хэлтэс"
+msgstr "Газар хэлтэс"
 
 msgid "organizations"
-msgstr "алба хэлтэс"
+msgstr "газар хэлтэс"
 
 msgid "There are currently no organizations for this site"
-msgstr "Одоогоор алба хэлтэс бүртгэлгүй байна"
+msgstr "Одоогоор газар хэлтэс бүртгэлгүй байна"
 
 msgid "What are Organizations?"
-msgstr "Алба хэлтэс гэж юу вэ?"
+msgstr "Газар хэлтэс гэж юу вэ?"
 
 msgid "{number} organizations found for \"{query}\""
-msgstr "\"{query}\"-н үр дүнд {number} алба хэлтэс олдлоо"
+msgstr "\"{query}\"-н үр дүнд {number} газар хэлтэс олдлоо"
 
 msgid "No organizations found for \"{query}\""
-msgstr "\"{query}\"-д алба хэлтэс олдсонгүй"
+msgstr "\"{query}\"-д газар хэлтэс олдсонгүй"
 
 msgid '{number} organizations found'
-msgstr '{number} алба хэлтэс олдлоо'
+msgstr '{number} газар хэлтэс олдлоо'
 
 msgid 'No organizations found'
-msgstr 'Алба хэлтэс олдсонгүй'
+msgstr 'Газар хэлтэс олдсонгүй'
 
 msgid 'Organization not found'
-msgstr 'Алба хэлтэс олдсонгүй'
+msgstr 'Газар хэлтэс олдсонгүй'
 
 msgid 'Organization was not found.'
-msgstr 'Алба хэлтэс олдсонгүй'
+msgstr 'Газар хэлтэс олдсонгүй'
 
 msgid 'My organizations'
-msgstr 'Миний алба хэлтэс'
+msgstr 'Миний газар хэлтэс'
 
 msgid "Add Organization"
-msgstr "Алба хэлтэс нэмэх"
+msgstr "Газар хэлтэс нэмэх"
 
 msgid "Search groups..."
 msgstr "Бүлэг хайх..."
 
 msgid "Search organizations..."
-msgstr "Алба хэлтэс хайх..."
+msgstr "Газар хэлтэс хайх..."
 
 msgid "Search datasets..."
 msgstr "Өгөгдлийн бүрдэл хайх..."
@@ -87,7 +87,7 @@ msgid "This dataset has no description"
 msgstr "Тайлбар оруулаагүй"
 
 msgid "{number} organizations found"
-msgstr "{number} алба хэлтэс"
+msgstr "{number} газар хэлтэс"
 
 msgid "Keywords"
 msgstr "Түлхүүр үгс"
